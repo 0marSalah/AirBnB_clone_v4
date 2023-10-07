@@ -120,3 +120,7 @@ input[type='checkbox'] {
 .available {
   background-color: #ff545f !important;
 }
+
+.none {
+  display: none;
+}
