@@ -1,6 +1,5 @@
-// request the api if status is ok
 $.ajax({
-  url: '/2-hbnb/',
+  url: 'http://0.0.0.0:5001/api/v1/status/',
   method: 'GET',
   success: function () {
     $('DIV#api_status').addClass('available');
